@@ -1,9 +1,7 @@
 package com.example.gps
 
-import android.content.Context
 import android.content.pm.PackageManager
 import android.location.Location
-import android.location.LocationProvider
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Looper
@@ -11,6 +9,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import kotlinx.android.synthetic.main.activity_main.*
+import com.google.android.gms.location.*
 
 
 class GpsActivity : AppCompatActivity() {
